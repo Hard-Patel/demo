@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/new_navigation"
+        android:title="New">
+        <menu>
+            <item android:id="@+id/newproject_nav"
+                android:title="New Project" />
+
+            <item android:id="@+id/newcollege_nav"
+                android:title="New College"/>
+
+            <item android:id="@+id/newbranch_nav"
+                android:title="New Branch"/>
+
+            <item android:id="@+id/newuser_nav"
+                android:title="New User"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/nav_view"
+        android:title="View">
+        <menu>
+            <item android:id="@+id/viewproject_nav"
+                android:title="View Project" />
+
+            <item android:id="@+id/viewcollege_nav"
+                android:title="View College"/>
+
+            <item android:id="@+id/viewbranch_nav"
+                android:title="View Branch"/>
+
+            <item android:id="@+id/viewuser_nav"
+                android:title="View User"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/nav_profile"
+        android:title="Profile"/>
+
+    <item android:id="@+id/nav_logout"
+        android:title="Logout"/>
+
+
+</menu>
